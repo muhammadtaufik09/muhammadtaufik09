@@ -1,0 +1,37 @@
+import java.util.Arrays;
+public class Main {
+    
+    public static void main(String[] args) {
+        //array 1D tipe data primitif
+        int [] a = {4,7,9};
+        
+
+        
+        //array 2D bertipe data non primitif
+        String [] b = {"jeruk","nanas","lemon"};
+        
+
+        
+        //array 2D tipe data 
+        String [][] buah = new String [2][2];
+        buah [0][0] = "kelapa";
+        buah [0][1] = "jeruk";
+        buah [1][0] = "semangka";
+        buah [1][1] = "melon";
+        
+        //mencetak 1D primitif
+        System.out.println(Arrays.toString(a));
+        
+        
+        //mencetak 1D non primitif
+        System.out.println(Arrays.toString(b));
+        
+        
+        //mencetak 2D primitif
+        System.out.println(Arrays.deepToString(buah));
+        
+        
+        
+    }
+    
+}
